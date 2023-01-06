@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and banner  */
+header {
+    background: rgb(125, 169, 166);
+    background-image: url(../images/donation1.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    background-blend-mode: multiply;
+}
+
+.banner-content {
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 65px;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.banner-content p {
+    font-size: 18px;
+    padding: 30px;
+    color: #88ecf4;
+}
+
+.btn-primary {
+    padding: 16px 20px;
+    background:#ff5959;
+    border-radius: 5px;
+    border-radius: 5px;
+    color: #517791;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+/* Donate Today section  */
+
+.donate-today {
+    text-align: center;
+}
+
+.donate_title {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.p_title {
+    width: 691px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #6f6f77;
+    text-align: center;
+}
+
+.amount_select {
+    display: flex;
+}
+
+.amount {
+    margin-left: 25px;
+}
+
+.amount h3 {
+    padding: 44px 25px;
+    width: 135px;
+    background: #fafafa;
+    margin: auto;
+    color: #707070;
+}
+
+.amount h3:hover {
+    background: #ffeeee;
+    border: 2px solid #ff5959;
+    border-radius: 5px;
+}
